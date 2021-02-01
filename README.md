@@ -1,4 +1,4 @@
-# Multi-path enabled private audio with noise.<br><a href = 'https://arxiv.org/pdf/1811.07065.pdf'>[Paper]</a> <a href = 'https://swing-research.github.io/private-audio/'>[Project page]</a> 
+# Multi-path enabled private audio with noise.<a href = 'https://arxiv.org/pdf/1811.07065.pdf'>[Paper]</a><a href = 'https://swing-research.github.io/private-audio/icassp19_poster.pdf'>[Poster]</a> <a href = 'https://swing-research.github.io/private-audio/'>[Project page]</a> 
 <b>Authors:</b> Anadi Chaman, Yu-Jeh Liu, Jonah Casebeer, Ivan Dokmanić.
 
 We present a private audio communication system between a set of centrally coordinated loudspeakers and microphones in a reverberant room.
@@ -14,8 +14,6 @@ This code uses packages: <a href = 'https://github.com/LCAV/pyroomacoustics'>Pyr
 
 ```
 pip install pyroomacoustics
-```
-
-```
 pip install pystoi
 ```
+

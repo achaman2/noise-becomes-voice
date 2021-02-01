@@ -7,7 +7,7 @@ Traditional multi-zone sound field reproduction systems focused on sending linea
 
 We instead use noise to reduce SNR everywhere outside the target locations. In particular, we emit structured noise signals from loudspeakers which after echoing across the room yield intelligible audio only at the target locations. An eavesdropper at anywhere else hears nothing but noise!
 
-The iPython notebook, main.ipynb, in this repository contains an example that illustrates two methods that we proposed to construct the noise signals.
+The iPython notebook, main.ipynb, in this repository contains an example that illustrates two methods that we proposed to construct the noise signals. main.ipynb saves its simulation results in folders mccs_reconstructions and null_space_method_reconstructions.
 
 # Dependencies
 This code uses packages—<a href = 'https://github.com/LCAV/pyroomacoustics'>Pyroomacoustics</a> and <a href = 'https://github.com/mpariente/pystoi'>pystoi</a>—for simulating room impulse responses and computing sound intelligibility scores respectively. These can be installed using pip as follows.
